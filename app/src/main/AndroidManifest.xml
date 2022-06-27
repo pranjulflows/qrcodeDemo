@@ -20,6 +20,10 @@
         android:theme="@style/Theme.QrcodeDemo"
         tools:targetApi="31">
         <activity
+            android:label="Support Form"
+            android:name=".FormActivity"
+            android:exported="false" />
+        <activity
             android:name=".QrCodeActivity"
             android:exported="false" />
         <activity
